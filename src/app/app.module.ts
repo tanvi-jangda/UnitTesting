@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MyAddPipe } from './my-add.pipe';
+import { MyMultPipe } from './my-mult.pipe';
+import { MarvellousChkPipe } from './marvellous-chk.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyAddPipe,
+    MyMultPipe,
+    MarvellousChkPipe
   ],
   imports: [
     BrowserModule,
